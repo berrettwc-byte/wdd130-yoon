@@ -3,7 +3,6 @@
 header {
     background: #2F5D8C;
     color: white;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -35,6 +34,22 @@ nav a {
 nav a:hover,
 nav .active {
     color: #F5BD74;
+}
+
+#hero {
+    background-color: #fff;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000;
+    font-family: "Cormorant Garamond", serif;
+    
+}
+
+#hero p {
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 footer {
@@ -82,7 +97,9 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 1px #000 solid;
-    margin: 26px;
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
     background: #2F5D8C;
     color: #fff;
 }
@@ -91,11 +108,13 @@ main {
     height:200px;
     margin: 10px;
     border: 1px #000 solid;
+    width: 350px;
+    justify-self: center;
 }
 
 .box div {
     display:grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 25px;
 }
 
 #bottom {

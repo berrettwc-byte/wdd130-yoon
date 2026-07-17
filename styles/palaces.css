@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+header {
+    background: #2F5D8C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 45px;
+}
+
+header h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+nav {
+    display: grid;
+    gap:30px;
+    grid-template-columns: 100px 5fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    transition: .3s; 
+}
+
+nav a:hover,
+nav .active {
+    color: #F5BD74;
+}
+
+footer {
+    background: #2F5D8C;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 70px;
+    margin-top: 70px;
+}
+
+.footer-left h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.4rem;
+}
+
+.footer-left p {
+    margin-top: 5px;
+    font-size: .9rem;
+}
+
+.social {
+    display: flex;
+    gap: 18px;
+}
+
+.social img {
+    width: 38px;
+    transition: .3s;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(1fr,6) ;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px #000 solid;
+    margin: 26px;
+    background: #2F5D8C;
+    color: #fff;
+}
+
+.box img {
+    height:200px;
+    margin: 10px;
+    border: 1px #000 solid;
+}
+
+.box div {
+    display:grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#bottom {
+    height:200px;
+    border: 1px #000 solid;
+    width:1fr;
+    margin: 26px;
+    justify-self: center;
+}
